@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['SUV', 'others', 'pickup', 'sedan', 'truck', 'unknown', 'van']
+
+roboflow:
+  workspace: sx-x-aa8ue
+  project: ver3-crt32
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sx-x-aa8ue/ver3-crt32/dataset/1
